@@ -1,0 +1,83 @@
+<style>
+    .container-fluid .gallery-heading {
+        margin-top: 100px;
+        padding: 50px;
+        font-family: Kanit;
+        font-size: 32px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.56;
+        letter-spacing: 0.1px;
+        text-align: center;
+        color: #373f41;
+    }
+
+    .gallery-img {
+        width: 80%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        border-radius: 8px;
+    }
+
+    .gallery-img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .card {
+        align-items: center;
+        border: none;
+        
+    }
+
+    .row {
+        margin-inline: 100px;
+    }
+
+    @media (max-width: 750px) {
+        .row {
+            margin-inline: 0px;
+        }
+    }
+</style>
+
+
+<section class="container-fluid">
+    <div class="gallery-heading">
+        <h1>Image Gallery</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../../../assets/gallery-1.webp" class="card-img-top gallery-img" alt="Gallery Image 1">
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../../../assets/gallery-2.webp" class="card-img-top gallery-img" alt="Gallery Image 2">
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../../../assets/gallery-3.webp" class="card-img-top gallery-img" alt="Gallery Image 3">
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../../../assets/gallery-4.webp" class="card-img-top gallery-img" alt="Gallery Image 4">
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../../../assets/gallery-5.webp" class="card-img-top gallery-img" alt="Gallery Image 5">
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../../../assets/gallery-2.webp" class="card-img-top gallery-img" alt="Gallery Image 6">
+            </div>
+        </div>
+    </div>
+</section>
